@@ -1,6 +1,3 @@
-
-
-
 const max = 10;
 const getRandomInt = () => Math.floor(Math.random() * max);
 function generateComments() {
@@ -17,27 +14,10 @@ function generateComments() {
 }
 
 for (let i = 0; i < 5; i++) {
-  const comment = generateComments()[getRandomInt()];
-  let text = comment.title + " - "
-  text += (comment.user?.name) ?? ("Anonyme")
-  
-  text += comment.user?.age!=null ? ` (${comment.user?.age})` : ""  
-  
-  console.log(text)
-  
-  
-}
-
-
-
-
-
-
-
-
-
-
-
+    const comment = generateComments()[getRandomInt()];
+    /* Au boulot */text = "${Comment} - "
+    text = text + 
+  }
 
 
 
