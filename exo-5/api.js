@@ -26,7 +26,6 @@ async function main() {
 
 
       try {
-        // Faux article
         await getArticle('/not-existing/false-article');
       } catch (error) {
         console.error('Erreur lors de la récupération du faux article:', error.message);
